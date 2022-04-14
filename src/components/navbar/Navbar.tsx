@@ -32,7 +32,7 @@ export const Navbar = () => {
                     ></RiCloseLine>
                  : <RiMenu3Line color="white" size={27} onClick={()=>{setToggleMenu(true)}}
                  ></RiMenu3Line>}
-      {toggleMenu && (<div className={`${styles['gpt3__navbar-menu_container']} ${styles['scale-up-center']}`}>
+      {toggleMenu && (<div className={`${styles['gpt3__navbar-menu_container']} scale-up-center`}>
         <div className={"gpt3__navbar-menu_container-links"}>
        <Menu></Menu>
        <div className={styles['gpt3__navbar-menu_container-links-sign']}>

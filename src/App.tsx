@@ -1,6 +1,6 @@
 import React from "react";
 import {Footer,Features,Blog,Header,Possibility,WhatGPT3,} from "./containers";
-import { CTA, Article, Brand, Feature, Navbar } from "./components";
+import { CTA, Brand,  Navbar } from "./components";
 export const App = () => {
   return (
     <div className="App">
